@@ -1,0 +1,58 @@
+/* Sidebar.css */
+
+.sidebar {
+  height: 100%;
+  width: 96px; /* Set the initial width for the sidebar */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  padding-top: 20px;
+  transition: width 0.5s; /* Add a transition effect for a smooth animation */
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+}
+
+.sidebar.open {
+  width: 0; /* Set the width to 0 when in mobile view */
+}
+
+.sidebar-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  color: white;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-btn {
+  display: none;
+}
+
+/* For small screens */
+@media only screen and (max-width: 767px) {
+  .sidebar {
+    width: 0; /* Set the initial width to 0 for mobile view */
+  }
+
+  .sidebar.open {
+    width: 100%; /* Set the width to 100% when the menu is open on mobile */
+  }
+
+  .menu-btn {
+    display: block;
+  }
+
+  .sidebar-btn {
+    width: 100%;
+  }
+}
