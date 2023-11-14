@@ -14,10 +14,6 @@
   text-align: center;
 }
 
-.sidebar.open {
-  width: 0; /* Set the width to 0 when in mobile view */
-}
-
 .sidebar-btn {
   width: 100%;
   padding: 10px;
@@ -38,6 +34,8 @@
   display: none;
 }
 
+
+
 /* For small screens */
 @media only screen and (max-width: 767px) {
   .sidebar {
@@ -54,5 +52,13 @@
 
   .sidebar-btn {
     width: 100%;
+  }
+  
+  .sidebar.open {
+    width: 100%; /* Set the width to 100% when in mobile view */
+  }
+
+  .show {
+    display: inline-block;
   }
 }
