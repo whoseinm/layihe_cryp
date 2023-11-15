@@ -17,7 +17,8 @@ const Sidebar = () => {
     <div className={`sidebar ${isMenuOpen ? 'open' : ''}`}>
       <FontAwesomeIcon
         icon={isMenuOpen ? faTimes : faBars} // Use faTimes when the menu is open, faBars when it's closed
-        style={{ color: "#fff", fontSize: 35 ,}}
+        style={{ color: "#fff",}}
+        className="bars"
         onClick={toggleMenu}
       />
       {isMenuOpen && (

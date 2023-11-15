@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Sidebar from './components/sidebar/Sidebar';
+import Navbar from './components/navbar/Navbar';
 import './App.css';
 
 function App() {
@@ -9,8 +10,11 @@ function App() {
     <div className="app-container">
       <Sidebar />
       <div className="main-content">
-        <h1>Welcome to Your Crypto Dashboard</h1>
-        {/* Add more content here */}
+
+          <div className='header'>
+            <Navbar />
+          </div>
+        
       </div>
     </div>
   );
