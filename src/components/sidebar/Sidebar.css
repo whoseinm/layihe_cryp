@@ -4,7 +4,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #1D1F25;
   padding-top: 20px;
   transition: width 0.5s; /* Add a transition effect for a smooth animation */
   border-top-right-radius: 20px;
