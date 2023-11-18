@@ -1,7 +1,6 @@
 // components/MyComponent.js
 import React from 'react';
 import './Balance.css';
-import CustomPieChart from "../diagram/CustomPieChart";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
@@ -41,7 +40,7 @@ const Balance = () => {
 
           <div className='currencies'>
             <div className="part1">
-              <CustomPieChart />
+
             </div>
             <div className="part2"></div>
           </div>
