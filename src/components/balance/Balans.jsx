@@ -3,11 +3,12 @@ import React, { PureComponent } from 'react';
 import { PieChart, Pie, ResponsiveContainer, Cell, Tooltip, Sector } from 'recharts';
 import './Balance.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowUp, faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowUp, faArrowDown, faRotate } from '@fortawesome/free-solid-svg-icons';
 
 import Bitcoin from "../../imgs/Bitcoin.png";
 import ETH from "../../imgs/ETH.png";
 import USDT from "../../imgs/USDT.png";
+import USD from "../../imgs/USD.png";
 
 const data = [
   { name: 'Group A', value: 400 },
@@ -41,7 +42,7 @@ class Balance extends PureComponent {
           endAngle={endAngle}
           fill={"#30E0A1"}
         />
-        <text x={cx} y={cy} dy={8} textAnchor="middle" fill="#000">
+        <text x={cx} y={cy} dy={8} textAnchor="middle" fill="#FFFFFF">
           <FontAwesomeIcon icon={faArrowUp} style={{ fontSize: "15px", margin: "0px 10px", color: "#11C9BE" }} />2.31%
         </text>
       </g>
@@ -60,15 +61,15 @@ class Balance extends PureComponent {
           </div>
 
           <div className='price'>
-            <span style={{ fontSize: "40px", }}>USD 12.243,55</span>
+            <span style={{ fontSize: "40px", marginLeft: "-5px",}}>USD 12.243,55</span>
             <div className='income-expense'>
               <div className='part1'>
-                <span style={{ color: '#5D6588', fontWeight: "lighter", fontSize: "25px", }}> <FontAwesomeIcon icon={faArrowDown} style={{ fontSize: "15px", margin: "0px 10px", color: "#11C9BE" }} /> Income</span>
+                <span style={{ color: '#5D6588', fontWeight: "lighter", fontSize: "25px", }}> <FontAwesomeIcon icon={faArrowDown} style={{ fontSize: "15px", color: "#11C9BE" }} /> Income</span>
                 <br />
                 <span style={{ fontWeight: "bold", }}>USD 12.243,55</span>
               </div>
               <div className='part2'>
-                <span style={{ color: '#5D6588', fontWeight: "lighter", fontSize: "25px", }}> <FontAwesomeIcon icon={faArrowUp} style={{ fontSize: "15px", margin: "0px 10px", color: "#FA2256" }} /> Expense</span>
+                <span style={{ color: '#5D6588', fontWeight: "lighter", fontSize: "25px", }}> <FontAwesomeIcon icon={faArrowUp} style={{ fontSize: "15px",  color: "#FA2256" }} /> Expense</span>
                 <br />
                 <span style={{ fontWeight: "bold", }}>USD 3.132,23</span>
               </div>
@@ -139,8 +140,36 @@ class Balance extends PureComponent {
 
             <div className="part3">
                 <div className="title">
-                <span>Exchange</span>
+                  <span>Exchange</span>
+                  <FontAwesomeIcon icon={faRotate} style={{color: "#ffffff",}} />
                 </div>
+
+                <form>
+                <div className="exchange">
+                  <div className="ex_part1">
+                    <input type="number" className='inp1' placeholder='1000'/>
+                    <select name="currency" className="inp2">
+                      <option value="USD">USD</option>
+                      <option value="AZN">AZN</option>
+                      <option value="TRY">TRY</option>
+                    </select>
+                  </div>
+                  <div className="ex_part2">
+                  <input type="number" className='inp1' placeholder='0.074153'/>
+                    <select name="currency" className="inp2">
+                      <option value="BTC">BTC</option>
+                      <option value="ETH">ETH</option>
+                      <option value="USDT">USDT</option>
+                    </select>
+                  </div>
+
+                  <div className="submitBtn">
+                    <button type='submit'>Exchange</button>
+                  </div>
+                </div>
+                </form>
+
+
               </div>
           </div>
         </>

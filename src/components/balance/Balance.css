@@ -1,7 +1,18 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
 .title{
     width: 100%;
     height: 50px;
-    background: blue;
+    /* background: blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +27,7 @@
 .price{
     width: 100%;
     height: auto;
-    background: green;
+    /* background: green; */
     align-items: center;
     font-size: 30px;
     padding: 0px 25px;
@@ -27,7 +38,7 @@
 .income-expense{
     width: 100%;
     height: auto;
-    background: black;
+    /* background: black; */
     display: flex;
     font-weight: lighter;
 }
@@ -35,13 +46,14 @@
 .part1{
     width: 50%;
     height: 100%;
-    background: yellow;
+    margin-left: -5px;
+    /* background: yellow; */
 }
 
 .part2{
     width: 50%;
     height: auto;
-    background: blueviolet;
+    /* background: blueviolet; */
 }
 
 .wallet{
@@ -58,7 +70,7 @@
 .part_of_part2{
     width: 100%;
     height: 50px;
-    background: saddlebrown;
+    /* background: saddlebrown; */
     margin-bottom: 10px;
     margin-top: 10px;
     display: flex;
@@ -67,7 +79,7 @@
 .img_part{
     width: 20%;
     height: 50px;
-    background: black;
+    /* background: black; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -83,13 +95,13 @@
 .text_part{
     width: 80%;
     height: 50px;
-    background: blue;
+    /* background: blue; */
 }
 
 .text_part1{
     width: 100%;
     height: 25px;
-    background: green;
+    /* background: green; */
     display: flex;
     justify-content: space-between;
     font-size: 20px;
@@ -99,11 +111,78 @@
 .text_part2{
     width: 100%;
     height: 25px;
-    background: rgb(201, 59, 59);
+    /* background: rgb(201, 59, 59); */
     font-weight: lighter;
     color: #5D6588;
     font-size: 18px;
 }
+
+.ex_part1{
+    width: 100%;
+    height: 80px;
+    /* background: rgb(138, 16, 16); */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #34384C;
+}
+
+.ex_part2{
+    width: 100%;
+    height: 80px;
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #34384C;
+}
+
+ .inp1{
+    width: 80%;
+    height: 8.1vh;
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: 0px;
+    outline: none;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.inp2{
+    width: 20%;
+    height: 5vh;
+    background: transparent;
+    color: white;
+    border: none;
+    border-left: 1px solid #34384C;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.submitBtn{
+    width: 100%;
+    height: auto;
+    /* background: white; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submitBtn button{
+    background: #155EEB;
+    width: 80%;
+    padding: 25px;
+    color: white;
+    border: 0px;
+    cursor: pointer;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+
+.submitBtn button:hover{
+    background: #155AAA;
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
