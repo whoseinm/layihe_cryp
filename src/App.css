@@ -34,7 +34,7 @@ body {
 
 .content {
   width: 100%;
-  height: 91.7%;
+  min-height: 91.7%;
   padding-left: 95px;
   background-color: red;
   color: white;
@@ -46,6 +46,14 @@ body {
 .header {
   height: 57px;
   width: 100%;
+}
+
+.balance-part{
+  min-height: 90%;
+}
+
+.overall{
+  min-height: 70%;
 }
 
 
@@ -63,11 +71,18 @@ body {
 
   .balance-part {
     width: 100%;
-    height: 90%;
+    min-height: 90%;
     background: #282c34;
     border-radius: 10px;
-    margin-right: 20px;
     padding-top: 10px;
+  }
+
+  .overall {
+    width: 100%;
+    background: #282c34;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -83,11 +98,19 @@ body {
 
   .balance-part {
     width: 100%;
-    height: 90%;
+    min-height: 90%;
     background: #282c34;
     border-radius: 10px;
     margin-right: 20px;
     padding-top: 10px;
+  }
+
+  .overall {
+    width: 100%;
+    background: #282c34;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -103,11 +126,19 @@ body {
 
   .balance-part {
     width: 100%;
-    height: 90%;
+    min-height: 90%;
     background: #282c34;
     border-radius: 10px;
     margin-right: 20px;
     padding-top: 10px;
+  }
+
+  .overall {
+    width: 100%;
+    background: #282c34;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -123,10 +154,18 @@ body {
 
   .balance-part {
     width: 30%;
-    height: 90%;
+    min-height: 90%;
     background: #282c34;
     border-radius: 10px;
     padding-top: 10px;
+  }
+
+  .overall {
+    width: 65%;
+    background: #282c34;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
   }
 }
 
@@ -142,7 +181,15 @@ body {
 
   .balance-part {
     width: 30%;
-    height: 90%;
+    max-height: 90%;
+    background: #282c34;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+  }
+
+  .overall {
+    width: 65%;
     background: #282c34;
     border-radius: 10px;
     padding-top: 10px;

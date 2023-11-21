@@ -55,11 +55,13 @@ class Balance extends PureComponent {
     return (
       <div>
         <>
+
+
+          <div className="main">
           <div className='title'>
             <span>Balance</span>
             <span style={{ fontSize: "25px", color: "#11C9BE", }}><FontAwesomeIcon icon={faArrowUp} style={{ fontSize: "18px", }} /> 0.53% </span>
           </div>
-
           <div className='price'>
             <span style={{ fontSize: "40px", marginLeft: "-5px",}}>USD 12.243,55</span>
             <div className='income-expense'>
@@ -171,6 +173,7 @@ class Balance extends PureComponent {
 
 
               </div>
+          </div>
           </div>
         </>
       </div>

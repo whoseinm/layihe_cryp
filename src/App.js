@@ -20,7 +20,10 @@ function App() {
           <div className='content'>
             <div className='balance-part'>
               <Balance />
-              
+            </div>
+
+            <div className='overall'>
+                
             </div>
           </div>
         

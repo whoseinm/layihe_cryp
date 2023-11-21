@@ -35,6 +35,10 @@ input[type=number] {
     font-weight: bold;
 }
 
+.main{
+    padding: 0px 20px;
+}
+
 .income-expense{
     width: 100%;
     height: auto;
@@ -177,6 +181,7 @@ input[type=number] {
     cursor: pointer;
     border-radius: 100px;
     transition: 0.5s;
+
 }
 
 .submitBtn button:hover{
