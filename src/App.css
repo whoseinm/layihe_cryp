@@ -40,7 +40,7 @@ body {
   color: white;
   /* Example background color */
   padding: 10px;
-  display: flex;
+  
 }
 
 .header {
@@ -53,7 +53,7 @@ body {
 }
 
 .overall{
-  min-height: 70%;
+  height: 460px!important;
 }
 
 
@@ -69,6 +69,10 @@ body {
     /* Example background color */
   }
 
+  .content{
+    display: block;
+  } 
+  
   .balance-part {
     width: 100%;
     min-height: 90%;
@@ -79,6 +83,7 @@ body {
 
   .overall {
     width: 100%;
+    min-height: 460px;
     background: #282c34;
     border-radius: 10px;
     padding-top: 10px;
@@ -94,6 +99,10 @@ body {
     background-color: #141518;
     color: white;
     /* Example background color */
+  }
+
+  .content{
+    display: block;
   }
 
   .balance-part {
@@ -124,6 +133,10 @@ body {
     /* Example background color */
   }
 
+  .content{
+    display: block;
+  }
+
   .balance-part {
     width: 100%;
     min-height: 90%;
@@ -152,6 +165,10 @@ body {
     /* Example background color */
   }
 
+  .content{
+    display: flex;
+  }
+
   .balance-part {
     width: 30%;
     min-height: 90%;
@@ -177,6 +194,10 @@ body {
     background-color: #141518;
     color: white;
     /* Example background color */
+  }
+  
+  .content{
+    display: flex;
   }
 
   .balance-part {
