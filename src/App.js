@@ -6,6 +6,7 @@ import Navbar from './components/navbar/Navbar';
 
 import Balance from './components/balance/Balans';
 import Overall from './components/overall/overall';
+import TopAsset from './components/topAssets/topAssets';
 
 import './App.css';
 
@@ -28,8 +29,8 @@ function App() {
                 <Overall />
             </div>
               
-            <div className='salam'>
-              <span>sa</span>
+            <div className='topAssets'>
+              <TopAsset />
             </div>
           </div>
         

@@ -174,7 +174,11 @@ class Balance extends PureComponent {
 
               </div>
           </div>
+
+          
           </div>
+
+          
         </>
       </div>
     );

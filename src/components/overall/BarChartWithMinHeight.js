@@ -28,7 +28,7 @@ const data = [
   {
     name: '06',
     uv: 2000,
-    pv: 8,
+    pv: 1000,
     amt: 2290,
   },
   {
@@ -78,9 +78,9 @@ const renderCustomizedLabel = (props) => {
 
 const BarChartWithMinHeight = () => {
   return (
-    <ResponsiveContainer width="100%" height={400}>
+    <ResponsiveContainer maxWidth="100%" height={400}>
       <BarChart
-        width={500}
+        width={"100%"}
         height={300}
         data={data}
         margin={{

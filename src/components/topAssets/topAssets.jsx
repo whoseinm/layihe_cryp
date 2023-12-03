@@ -5,7 +5,11 @@ import './topAssets.css'
 const topAssets = () => {
   return (
 
-    <></>
+    <>
+      <div className='left-side'>
+        salam
+      </div>
+    </>
     
   );
 };
