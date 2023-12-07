@@ -1,0 +1,171 @@
+.leftSide{
+    width: 60%;
+    height: 365px;
+    background: #282C34;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.rightSide{
+    width: 40%;
+    height: 365px;
+    background: #282C34;
+    border-radius: 20px;
+}
+
+.AssetName{
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    height: 50px;
+    /* background: brown; */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.coins{
+    width: 100%;
+    height: 315px;
+    /* background: wheat; */
+    overflow-y: auto;
+}
+
+.coinName{
+    width: 100%;
+    height: 60px;
+    /* background: sandybrown; */
+    display: flex;
+}
+
+.coinName .imgPart{
+    width: 15%;
+    height: 60px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.PriceAndName{
+    width: 65%;
+    height: 60px;
+    /* background: black; */
+}
+
+.PriceAndName .Price{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    /* background: red; */
+}
+
+.PriceAndName .Name{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    /* background: black; */
+    color: #5D6588;
+}
+
+.TinyChart{
+    width: 20%;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.Percent{
+    width: 20%;
+    height: 30px;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.transactions{
+    width: 100%;
+    height: 315px;
+    /* background: wheat; */
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.transactionName{
+    width: 100%;
+    height: 60px;
+    /* background: sandybrown; */
+    display: flex;
+}
+
+.transactionName .imgPart{
+    width: 15%;
+    height: 60px;
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.TransacitonAndName{
+    width: 55%;
+    height: 60px;
+    /* background: black; */
+}
+
+.TransacitonAndName .Date{
+    width: 100%;
+    height: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    /* background: red; */
+}
+
+.TransacitonAndName .Name{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    /* background: black; */
+    color: #5D6588;
+}
+
+.CoinAndId{
+    width: 30%;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.Coin{
+    width: 20%;
+    height: 30px;
+    text-wrap: nowrap;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Id{
+    width: 20%;
+    height: 20px;
+    text-wrap: nowrap;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #34384c;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #34384c;
+    border-radius: 15px;
+    border: 3px solid transparent;
+  }

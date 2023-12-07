@@ -78,7 +78,7 @@ const renderCustomizedLabel = (props) => {
 
 const BarChartWithMinHeight = () => {
   return (
-    <ResponsiveContainer maxWidth="100%" height={400}>
+    <ResponsiveContainer width="100%" height={400}>
       <BarChart
         width={"100%"}
         height={300}
