@@ -1,3 +1,8 @@
+.growth{
+    width: 100%;
+    height: auto;
+}
+
 .growth .top{
     width: 100%;
     height: 50px;
@@ -22,6 +27,125 @@
     background: #141518;
 }
 
-.chart{
-    width: 100%;
+
+rechartResponsive{
+    overflow-x: auto;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .growth{
+        width: 100%;
+        height: auto;
+    }
+
+    .titleOverall{
+        font-size: 16px;
+        padding-right: 20px;
+    }
+
+    .chart{
+        width: 475px;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    rechartResponsive{
+        width: 400px;
+    }
+
+    .growth .top{
+        width: 100%;
+        height: 50px;
+        /* background: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .growth{
+        width: 100%;
+        height: auto;
+    }
+
+    .titleOverall{
+        font-size: 16px;
+        padding-right: 20px;
+    }
+
+    .chart{
+        width: 710px;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    rechartResponsive{
+        width: 400px;
+    }
+
+    .growth .top{
+        width: 100%;
+        height: 50px;
+        /* background: yellow; */
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .titleOverall{
+        font-size: 16px;
+        padding-right: 20px;
+    }
+
+    rechartResponsive{
+        width: 400px;
+    }
+
+    .chart{
+        width: 710px;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .titleOverall{
+        font-size: 30px;
+        padding-right: 20px;
+    }
+    
+    .chart{
+        width: 1200px;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    rechartResponsive{
+        width: 400px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .titleOverall{
+        font-size: 30px;
+        padding-right: 20px;
+    }
+
+    rechartResponsive{
+        width: 1200px;
+    }
 }

@@ -29,9 +29,9 @@ function App() {
                 <Overall />
             </div>
               
-            <div className='topAssets'>
+            {/* <div className='topAssets'>
               <TopAsset />
-            </div>
+            </div> */}
           </div>
         
       </div>

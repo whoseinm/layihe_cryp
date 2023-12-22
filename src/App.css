@@ -93,7 +93,7 @@ body {
     background: #282c34;
     border-radius: 10px;
     padding-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
   }
 
   .topAssets{
@@ -123,20 +123,29 @@ body {
   }
 
   .balance-part {
-    width: 100%;
+    width: 96%;
     min-height: 90%;
     background: #282c34;
     border-radius: 10px;
     margin-right: 20px;
     padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .overall {
-    width: 100%;
+    width: 96%;
     background: #282c34;
     border-radius: 10px;
     padding-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .titleOverall{
+    font-size: 25px;
+  }
+
+  .chart{
+    width: 680px;
   }
 
   .topAssets{
@@ -149,6 +158,8 @@ body {
     border-radius: 10px;
     
   }
+
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -166,21 +177,32 @@ body {
   }
 
   .balance-part {
-    width: 100%;
+    width: 98%;
     min-height: 90%;
     background: #282c34;
     border-radius: 10px;
     margin-right: 20px;
     padding-top: 10px;
+    padding-bottom: 10px;
   }
 
-  .overall {
-    width: 100%;
+  .overall{
+    width: 98%;
     background: #282c34;
     border-radius: 10px;
     padding-top: 10px;
-    margin-left: 10px;
+    margin-top: 20px;
+    margin-right: 40px;
   }
+
+  .chart{
+    width: 780px;
+  }
+
+  .titleOverall{
+    font-size: 25px;
+  }
+  
 
   .topAssets{
     width: 100%;
@@ -222,6 +244,7 @@ body {
     border-radius: 10px;
     padding-top: 10px;
     margin-left: 10px;
+    margin-top: 0px;
   }
 
   .topAssets{
@@ -265,6 +288,11 @@ body {
     border-radius: 10px;
     padding-top: 10px;
     margin-left: 10px;
+  }
+
+  .chart{
+    width: 100%;
+    overflow-x: auto;
   }
 
   .topAssets{

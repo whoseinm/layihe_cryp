@@ -7,7 +7,7 @@ const overall = () => {
   return (
     <div className="growth">
         <div className="top">
-            <span style={{fontSize: "30px",}}>Overall Growth</span>
+            <span className='titleOverall'>Overall Growth</span>
             <span className='button'>1 min</span>
             <span className='button'>3 min</span>
             <span className='button'>30 min</span>

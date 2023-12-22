@@ -11,6 +11,7 @@ import {
   LabelList,
   ResponsiveContainer,
 } from 'recharts';
+import './overall.css'
 
 const data = [
   {
@@ -78,9 +79,9 @@ const renderCustomizedLabel = (props) => {
 
 const BarChartWithMinHeight = () => {
   return (
-    <ResponsiveContainer width="100%" height={400}>
+    <ResponsiveContainer width={1200} height={400} className="rechartResponsive">
       <BarChart
-        width={"100%"}
+        width={400}
         height={300}
         data={data}
         margin={{
