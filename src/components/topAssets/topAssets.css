@@ -1,17 +1,4 @@
-.leftSide{
-    width: 60%;
-    height: 365px;
-    background: #282C34;
-    margin-right: 20px;
-    border-radius: 20px;
-}
 
-.rightSide{
-    width: 40%;
-    height: 365px;
-    background: #282C34;
-    border-radius: 20px;
-}
 
 .AssetName{
     font-size: 25px;
@@ -149,6 +136,107 @@
     width: 20%;
     height: 20px;
     text-wrap: nowrap;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .leftSide{
+        width: 115%;
+        height: 365px;
+        background: #282C34;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+    
+    .rightSide{
+        width: 115%;
+        height: 365px;
+        background: #282C34;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .leftSide{
+        width: 115%;
+        height: 365px;
+        background: #282C34;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    
+    .rightSide{
+        width: 115%;
+        height: 365px;
+        background: #282C34;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .leftSide{
+        width: 125%;
+        height: 365px;
+        background: #282C34;
+        border-radius: 20px;
+        margin-left: 10px;
+    }
+    
+    .rightSide{
+        width: 125%;
+        height: 365px;
+        background: #282C34;
+        margin-left: 10px;
+        margin-top: 20px;
+        border-radius: 20px;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .leftSide{
+        width: 60%;
+        height: 365px;
+        background: #282C34;
+        margin-right: 20px;
+        border-radius: 20px;
+    }
+    
+    .rightSide{
+        width: 40%;
+        height: 365px;
+        background: #282C34;
+        border-radius: 20px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .leftSide{
+        width: 60%;
+        height: 365px;
+        background: #282C34;
+        margin-right: 20px;
+        border-radius: 20px;
+        margin-left: 0px;
+    }
+    
+    .rightSide{
+        width: 40%;
+        height: 365px;
+        background: #282C34;
+        border-radius: 20px;
+        margin-top: 0px;
+    }
 }
 
 /* ===== Scrollbar CSS ===== */

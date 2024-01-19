@@ -35,7 +35,7 @@ body {
   width: 100%;
   min-height: 91.7%;
   padding-left: 95px;
-  background-color: red;
+  /* background-color: red; */
   color: white;
   /* Example background color */
   padding: 10px;
@@ -101,7 +101,7 @@ body {
     height: 365px;
     /* background: yellow; */
     position: absolute;
-    bottom: 0px;
+    bottom: -760px;
     left: 0px;
     border-radius: 10px;
     
@@ -153,7 +153,7 @@ body {
     height: 365px;
     /* background: yellow; */
     position: absolute;
-    bottom: 0px;
+    bottom: -760px;
     left: 0px;
     border-radius: 10px;
     
